@@ -50,8 +50,11 @@ body, html {height: 100%}
   <button type="button"  class="btn btn-outline-danger" onclick="document.getElementById('sound1').play();">Play
   it &nbsp;&nbsp;<i class=" fas fa-play " onclick="document.getElementById('sound1').play();"></i></a></button>&nbsp;
                 <i  class="fas fa-pause btn btn-outline-danger" onclick="document.getElementById('sound1').pause();"></i></a>
+                <form action="db/logout.php" method="post">
+                <input type="submit"  value ="logout" name="logout" class="btn btn-outline-danger" ></input>
+</form>
 
-                <a href=" logout.php?logout=true#" type="submit"  name="logout" class="btn btn-outline-danger"></input></a>
+
                 
 
                 
